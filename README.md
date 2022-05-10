@@ -34,3 +34,14 @@ pytest
 ```
 
 This command will execute all the functions in your project that start with the word **test**.
+
+## Setup commands to use
+
+Before starting to work on the project activate the virtual environment and load all required packages by:
+
+```bash
+pyenv local 3.9.8
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
